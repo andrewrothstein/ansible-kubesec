@@ -1,0 +1,16 @@
+---
+# defaults file for kubesec
+kubesec_ver: v2.3.1
+kubesec_mirror: https://github.com/controlplaneio/kubesec/releases/download
+kubesec_os: linux
+kubesec_arch: amd64
+kubesec_parent_install_dir: /usr/local
+kubesec_checksums:
+  # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_checksums.txt
+  v2.3.1:
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_darwin_amd64.tar.gz
+      darwin_amd64: sha256:c43ad14d82a99e71519bd76263a6c2bd0ff5d02178f206242cc59b356e382119
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_386.tar.gz
+      linux_386: sha256:4ad3d3d8248f247d26252242396611447e69f0024ab2914323d98da22d1d8d4a
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_amd64.tar.gz
+      linux_amd64: sha256:e5fe02f23dc884e739e468edbf99e5448b39b61001fd2032b017ffc299c7fa50
