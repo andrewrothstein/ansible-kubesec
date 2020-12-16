@@ -2,3 +2,9 @@
 - hosts: all
   roles:
   - role: '{{ playbook_dir }}'
+  tasks:
+  - command: /usr/local/bin/kubesec version
+    register: kubesec_test_output
+  - name: kubesec version
+    debug:
+      msg: '{{ kubesec_test_output.stdout }}'
