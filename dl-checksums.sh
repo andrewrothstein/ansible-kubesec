@@ -36,4 +36,4 @@ dl_ver() {
     dl $ver $lchecksums linux amd64
 }
 
-dl_ver ${1:-v2.3.1}
+dl_ver ${1:-v2.8.0}
