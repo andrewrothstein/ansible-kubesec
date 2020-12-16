@@ -9,7 +9,7 @@
       skip: true
       paths:
         - '{{ role_path }}/vars'
-- name: check for install
+- name: check for install in {{ kubesec_install_dir }}
   become: yes
   stat:
     path: '{{ kubesec_install_dir }}'
@@ -17,37 +17,37 @@
   register: kubesec_binary
 - when: not kubesec_binary.stat.exists
   block:
-    - name: download
+    - name: downloading {{ kubesec_url }} to {{ kubesec_tmp_tgz }}
       become: yes
       become_user: root
       get_url:
         url: '{{ kubesec_url }}'
-        dest: /tmp/{{ kubesec_tgz }}
+        dest: '{{ kubesec_tmp_tgz }}'
         mode: 0644
         checksum: '{{ kubesec_checksum }}'
-    - name: mkdir
+    - name: mkdir {{ kubesec_install_dir }}
       become: yes
       become_user: root
       file:
         path: '{{ kubesec_install_dir }}'
         state: directory
         mode: 0755
-    - name: unarchive
+    - name: unarchiving {{ kubesec_tmp_tgz }} to {{ kubesec_install_dir }}
       become: yes
       become_user: root
       unarchive:
         remote_src: yes
-        src: /tmp/{{ kubesec_tgz }}
+        src: '{{ kubesec_tmp_tgz }}'
         dest: '{{ kubesec_install_dir }}'
         creates: '{{ kubesec_exe }}'
   always:
-    - name: cleanup
+    - name: rm {{ kubesec_tmp_tgz }}
       become: yes
       become_user: root
       file:
-        path: /tmp/{{ kubesec_tgz }}
+        path: '{{ kubesec_tmp_tgz }}'
         state: absent
-- name: link
+- name: linking {{ kubesec_link }} to {{ kubesec_exe }}
   become: yes
   become_user: root
   file:
