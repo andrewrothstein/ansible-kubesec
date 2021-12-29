@@ -39,4 +39,4 @@ dl_ver() {
     dl $ver $lchecksums linux armv7
 }
 
-dl_ver ${1:-v2.11.2}
+dl_ver ${1:-v2.11.4}
