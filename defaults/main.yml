@@ -1,9 +1,11 @@
 ---
 # defaults file for kubesec
-kubesec_ver: v2.11.4
+kubesec_ver: v2.14.0
 kubesec_mirror: https://github.com/controlplaneio/kubesec/releases/download
-kubesec_os: linux
-kubesec_arch: amd64
+kubesec_arch_map:
+  aarch64: arm64
+  arm64: arm64
+  x86_64: amd64
 kubesec_parent_install_dir: /usr/local
 kubesec_checksums:
   # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_checksums.txt
@@ -50,3 +52,17 @@ kubesec_checksums:
       linux_armv6: sha256:75569f6c89609eeec45778fb36260a2af6d02076b3780d3d95ea6ea777026ed2
       # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_armv7.tar.gz
       linux_armv7: sha256:7352babde1067b248eccfaf5f3533f127b67eece237bcba58604a03b87f6f99c
+  # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_checksums.txt
+  v2.14.0:
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_amd64.tar.gz
+      darwin_amd64: sha256:e3a9d9eb1e3b65a2c80eb4553f8cddbeea1e81ec288e77aed04030fb45fbcf4e
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_arm64.tar.gz
+      darwin_arm64: sha256:6e3b7ba087f9bd6a5ee689cc6da33ad32ae490037769ac2b94f8cff23be608ea
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_amd64.tar.gz
+      linux_amd64: sha256:961f9f2c1fa0279cd27ac94c4cb2bba9d25a9e312f2e2403ed016dfc172a3d12
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_arm64.tar.gz
+      linux_arm64: sha256:b4717050bfa01c25236c0619bdcd8a7dbc151390fd8ec085a37b2282a4a8be1f
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv6.tar.gz
+      linux_armv6: sha256:3e35de4ae2897efb0034a557c30b20ea2507f6e7cf8836706b1e57f242f6c6f6
+      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv7.tar.gz
+      linux_armv7: sha256:af1478b3736b016daf3927475f195444d18852206fc884717e08a9529497f62e

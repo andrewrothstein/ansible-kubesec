@@ -1,10 +1,14 @@
 ---
-- hosts: all
-  roles:
-  - role: '{{ playbook_dir }}'
+- name: Testing andrewrothstein.kubesec
+  hosts: all
   tasks:
-  - command: /usr/local/bin/kubesec version
-    register: kubesec_test_output
-  - name: kubesec version
-    debug:
-      msg: '{{ kubesec_test_output.stdout }}'
+    - name: Installing andrewrothstein.kubesec
+      ansible.builtin.include_role:
+        name: '{{ playbook_dir }}'
+    - name: Executing 'kubesec version'
+      ansible.builtin.command: /usr/local/bin/kubesec version
+      changed_when: false
+      register: kubesec_test_output
+    - name: Output from 'kubesec version'
+      ansible.builtin.debug:
+        msg: '{{ kubesec_test_output.stdout }}'

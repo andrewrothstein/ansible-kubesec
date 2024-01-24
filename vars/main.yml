@@ -1,9 +1,11 @@
 ---
 # vars file for kubesec
+kubesec_os: '{{ ansible_system | lower }}'
+kubesec_arch: '{{ kubesec_arch_map[ansible_architecture] }}'
 kubesec_platform: '{{ kubesec_os }}_{{ kubesec_arch }}'
 kubesec_url: '{{ kubesec_mirror }}/{{ kubesec_ver }}/kubesec_{{ kubesec_platform }}.tar.gz'
 kubesec_tgz: kubesec_{{ kubesec_ver }}_{{ kubesec_platform }}.tar.gz
-kubesec_tmp_tgz: /tmp/{{ kubesec_tgz }}
+kubesec_tmp_tgz: '{{ kubesec_tmp_dir | default("/tmp") }}/{{ kubesec_tgz }}'
 kubesec_install_dir: '{{ kubesec_parent_install_dir }}/kubesec-{{ kubesec_ver }}'
 kubesec_exe: '{{ kubesec_install_dir }}/kubesec'
 kubesec_link: '{{ kubesec_parent_install_dir }}/bin/kubesec'
