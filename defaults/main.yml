@@ -10,59 +10,59 @@ kubesec_parent_install_dir: /usr/local
 kubesec_checksums:
   # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_checksums.txt
   v2.3.1:
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_darwin_amd64.tar.gz
-      darwin_amd64: sha256:c43ad14d82a99e71519bd76263a6c2bd0ff5d02178f206242cc59b356e382119
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_386.tar.gz
-      linux_386: sha256:4ad3d3d8248f247d26252242396611447e69f0024ab2914323d98da22d1d8d4a
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_amd64.tar.gz
-      linux_amd64: sha256:e5fe02f23dc884e739e468edbf99e5448b39b61001fd2032b017ffc299c7fa50
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_darwin_amd64.tar.gz
+    darwin_amd64: sha256:c43ad14d82a99e71519bd76263a6c2bd0ff5d02178f206242cc59b356e382119
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_386.tar.gz
+    linux_386: sha256:4ad3d3d8248f247d26252242396611447e69f0024ab2914323d98da22d1d8d4a
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.3.1/kubesec_linux_amd64.tar.gz
+    linux_amd64: sha256:e5fe02f23dc884e739e468edbf99e5448b39b61001fd2032b017ffc299c7fa50
   # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_checksums.txt
   v2.8.0:
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_darwin_amd64.tar.gz
-      darwin_amd64: sha256:c527c374ac40c14b1ce1c6861267197e1ac74fcdbe44b5c624f58a2310a4dc31
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_linux_386.tar.gz
-      linux_386: sha256:ce427453b00f7fbb8c7b06388d8e2e443c3e7f18a8a79e4612520f125d7a1401
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_linux_amd64.tar.gz
-      linux_amd64: sha256:7bc0d51fc86f3fa8b460a4cd3faaa268a393c3fe82ac6d2cfa51c626fb523de6
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_darwin_amd64.tar.gz
+    darwin_amd64: sha256:c527c374ac40c14b1ce1c6861267197e1ac74fcdbe44b5c624f58a2310a4dc31
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_linux_386.tar.gz
+    linux_386: sha256:ce427453b00f7fbb8c7b06388d8e2e443c3e7f18a8a79e4612520f125d7a1401
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.8.0/kubesec_linux_amd64.tar.gz
+    linux_amd64: sha256:7bc0d51fc86f3fa8b460a4cd3faaa268a393c3fe82ac6d2cfa51c626fb523de6
   # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_checksums.txt
   v2.11.2:
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_darwin_amd64.tar.gz
-      darwin_amd64: sha256:72c913a9aedd2ab36ea4038605aec12b54fbc0432d0ee59977f484ea235c7aa8
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_darwin_arm64.tar.gz
-      darwin_arm64: sha256:f47867ffa03419c6ff991207eccafc088c0afa5c8d201c2f990aa5b88e67cdc4
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_amd64.tar.gz
-      linux_amd64: sha256:2a9278b576d18c1e9362e5923c7a2e58f77fa8b44260a83f68c909dcf321c3b1
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_arm64.tar.gz
-      linux_arm64: sha256:4e604aae0d2e6092ac7da2850bd149c8bd955ec32218032b01313367f0646d8e
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_armv6.tar.gz
-      linux_armv6: sha256:fd6aa4e9f44f73608f02df84a548f5609b52a1be7dabfba6c6c223a643e2c1ba
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_armv7.tar.gz
-      linux_armv7: sha256:5eeebb9574d26a7df8f72dbb758be64f8b170b65cda2d87654314a9fcb71e1e1
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_darwin_amd64.tar.gz
+    darwin_amd64: sha256:72c913a9aedd2ab36ea4038605aec12b54fbc0432d0ee59977f484ea235c7aa8
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_darwin_arm64.tar.gz
+    darwin_arm64: sha256:f47867ffa03419c6ff991207eccafc088c0afa5c8d201c2f990aa5b88e67cdc4
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_amd64.tar.gz
+    linux_amd64: sha256:2a9278b576d18c1e9362e5923c7a2e58f77fa8b44260a83f68c909dcf321c3b1
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_arm64.tar.gz
+    linux_arm64: sha256:4e604aae0d2e6092ac7da2850bd149c8bd955ec32218032b01313367f0646d8e
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_armv6.tar.gz
+    linux_armv6: sha256:fd6aa4e9f44f73608f02df84a548f5609b52a1be7dabfba6c6c223a643e2c1ba
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.2/kubesec_linux_armv7.tar.gz
+    linux_armv7: sha256:5eeebb9574d26a7df8f72dbb758be64f8b170b65cda2d87654314a9fcb71e1e1
   # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_checksums.txt
   v2.11.4:
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_darwin_amd64.tar.gz
-      darwin_amd64: sha256:643547b970a8d15126a53e73e648e31fbd9be7325cfa2f9ec0ec569c412274d1
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_darwin_arm64.tar.gz
-      darwin_arm64: sha256:1817d051fcef0e7cdc817b500361553cf7fa2e8a8cb414c7db56083d9ab6c310
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_amd64.tar.gz
-      linux_amd64: sha256:f9d66a4fab927dbd85cc5830da623cfc7f6749799b6df8182870de9346c4b9bb
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_arm64.tar.gz
-      linux_arm64: sha256:57fb6e9e4d113ad590c625dad570df0ec34cf722e14d4456840cd5b8e8519561
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_armv6.tar.gz
-      linux_armv6: sha256:75569f6c89609eeec45778fb36260a2af6d02076b3780d3d95ea6ea777026ed2
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_armv7.tar.gz
-      linux_armv7: sha256:7352babde1067b248eccfaf5f3533f127b67eece237bcba58604a03b87f6f99c
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_darwin_amd64.tar.gz
+    darwin_amd64: sha256:643547b970a8d15126a53e73e648e31fbd9be7325cfa2f9ec0ec569c412274d1
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_darwin_arm64.tar.gz
+    darwin_arm64: sha256:1817d051fcef0e7cdc817b500361553cf7fa2e8a8cb414c7db56083d9ab6c310
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_amd64.tar.gz
+    linux_amd64: sha256:f9d66a4fab927dbd85cc5830da623cfc7f6749799b6df8182870de9346c4b9bb
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_arm64.tar.gz
+    linux_arm64: sha256:57fb6e9e4d113ad590c625dad570df0ec34cf722e14d4456840cd5b8e8519561
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_armv6.tar.gz
+    linux_armv6: sha256:75569f6c89609eeec45778fb36260a2af6d02076b3780d3d95ea6ea777026ed2
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.11.4/kubesec_linux_armv7.tar.gz
+    linux_armv7: sha256:7352babde1067b248eccfaf5f3533f127b67eece237bcba58604a03b87f6f99c
   # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_checksums.txt
   v2.14.0:
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_amd64.tar.gz
-      darwin_amd64: sha256:e3a9d9eb1e3b65a2c80eb4553f8cddbeea1e81ec288e77aed04030fb45fbcf4e
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_arm64.tar.gz
-      darwin_arm64: sha256:6e3b7ba087f9bd6a5ee689cc6da33ad32ae490037769ac2b94f8cff23be608ea
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_amd64.tar.gz
-      linux_amd64: sha256:961f9f2c1fa0279cd27ac94c4cb2bba9d25a9e312f2e2403ed016dfc172a3d12
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_arm64.tar.gz
-      linux_arm64: sha256:b4717050bfa01c25236c0619bdcd8a7dbc151390fd8ec085a37b2282a4a8be1f
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv6.tar.gz
-      linux_armv6: sha256:3e35de4ae2897efb0034a557c30b20ea2507f6e7cf8836706b1e57f242f6c6f6
-      # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv7.tar.gz
-      linux_armv7: sha256:af1478b3736b016daf3927475f195444d18852206fc884717e08a9529497f62e
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_amd64.tar.gz
+    darwin_amd64: sha256:e3a9d9eb1e3b65a2c80eb4553f8cddbeea1e81ec288e77aed04030fb45fbcf4e
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_darwin_arm64.tar.gz
+    darwin_arm64: sha256:6e3b7ba087f9bd6a5ee689cc6da33ad32ae490037769ac2b94f8cff23be608ea
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_amd64.tar.gz
+    linux_amd64: sha256:961f9f2c1fa0279cd27ac94c4cb2bba9d25a9e312f2e2403ed016dfc172a3d12
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_arm64.tar.gz
+    linux_arm64: sha256:b4717050bfa01c25236c0619bdcd8a7dbc151390fd8ec085a37b2282a4a8be1f
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv6.tar.gz
+    linux_armv6: sha256:3e35de4ae2897efb0034a557c30b20ea2507f6e7cf8836706b1e57f242f6c6f6
+    # https://github.com/controlplaneio/kubesec/releases/download/v2.14.0/kubesec_linux_armv7.tar.gz
+    linux_armv7: sha256:af1478b3736b016daf3927475f195444d18852206fc884717e08a9529497f62e

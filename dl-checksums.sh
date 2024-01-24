@@ -15,8 +15,8 @@ dl() {
     local platform="${os}_${arch}"
     local file="${APP}_${platform}.${archive_type}"
     local url=$MIRROR/$ver/$file
-    printf "      # %s\n" $url
-    printf "      %s: sha256:%s\n" $platform $(grep $file $lchecksums | awk '{print $1}')
+    printf "    # %s\n" $url
+    printf "    %s: sha256:%s\n" $platform $(grep $file $lchecksums | awk '{print $1}')
 }
 
 dl_ver() {
